@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { CustomerButtom } from ".";
+import { CustomerButton } from ".";
 
 const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
             className="object-contain"
           />
         </Link>
-        <CustomerButtom
+        <CustomerButton
           title="Sign In"
           btnType="button"
           containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"

@@ -1,6 +1,22 @@
 import Hero from "./Hero";
-import CustomerButtom from "./CustomerButtom";
+import CustomerButton from "./CustomerButton";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-
-export { Hero, CustomerButtom, Footer, Navbar };
+import SearchBar from "./SearchBar";
+import CustomFilter from "./CustomFilter";
+import SearchManufacturer from "./SearchManufacturer";
+import CarCard from "./CarCard";
+import CarDetails from "./CarDetails";
+import ShowMore from "./ShowMore";
+export {
+  Hero,
+  CustomerButton,
+  Footer,
+  Navbar,
+  SearchBar,
+  CustomFilter,
+  SearchManufacturer,
+  CarCard,
+  CarDetails,
+  ShowMore,
+};

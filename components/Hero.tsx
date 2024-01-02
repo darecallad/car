@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { CustomerButtom } from ".";
+import { CustomerButton } from ".";
 
 const Hero = () => {
   const handleScroll = () => {};
@@ -16,7 +16,7 @@ const Hero = () => {
           Streamline your car rental experience with our effortless booking
           process.
         </p>
-        <CustomerButtom
+        <CustomerButton
           title="Explore Cars"
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
           handleClick={handleScroll}
